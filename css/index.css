@@ -1,0 +1,688 @@
+@font-face {
+    font-family: "dine";
+    src: url("./DINEngschrift\ Regular.ttf");
+}
+.alert-correo{
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+.title-form{
+    color: white;
+    font-family: dine;
+    font-size: 3vw;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+.label-form{
+    color: white;
+    
+    font-family: dine;
+    margin-bottom: 0px;
+    font-size: 2.5vw;
+}
+.input-style{
+    background-color: #4B4A4A;
+    border: 1px solid #4B4A4A;
+    color: white;
+    font-size: 20px;
+}
+.button-form{
+    margin-left: auto;
+    display: block;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: dine;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    transition: background-color .5s;
+}
+.button-form:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+@media (max-width:762px){
+    .label-form{
+        color: white;
+        
+        font-family: dine;
+        margin-bottom: 0px;
+        font-size: 5vw;
+    }
+    .title-form{
+        color: white;
+        font-family: dine;
+        font-size: 5vw;
+        letter-spacing: 5px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+.nav-color {
+    color: white !important;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.nav-color:hover {
+    color: white !important;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #7F8C8D !important;
+
+}
+
+.nav-color:active {
+    color: white !important;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #7F8C8D !important;
+
+}
+
+.navbar-toggler {
+    width: 60px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    float: left;
+    height: 6px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.bg-nav-mobile {
+    background-color: #161613 !important;
+}
+
+.logo-mob-nav {
+    width: 50px;
+}
+
+.color-nav {
+    background-color: #4B4A4A;
+    border-bottom: 5px solid transparent;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-image: linear-gradient(90deg, rgba(150, 209, 124, 1) 0%, rgba(215, 106, 93, 1) 30%, rgba(186, 50, 34, 1) 63%, rgba(94, 129, 75, 1) 88%) 1;
+
+
+}
+
+.color-nav-2 {
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(90deg, rgba(150, 209, 124, 1) 0%, rgba(215, 106, 93, 1) 30%, rgba(186, 50, 34, 1) 63%, rgba(94, 129, 75, 1) 88%) 1;
+}
+
+.img-nav {
+    width: 130px;
+}
+
+.title-plaza {
+    color: white;
+    text-align: right;
+    font-size: 8vw;
+    width: 100%;
+    font-family: dine;
+    letter-spacing: 5px;
+}
+
+.sub-plaza {
+    color: white;
+    font-size: 3vw;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 0px;
+    line-height: 45px;
+
+}
+
+.carousel-caption-2 {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.text-menu {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    font-family: dine;
+    margin-bottom: 0px;
+}
+
+.cont-bg-line {
+    background-image: url(../img/ALESSIA-BARRA.png);
+    background-size: contain;
+
+}
+
+.icons-menu {
+    width: 100%;
+    padding: 30px;
+
+}
+
+.logo-nosotros {
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    text-align: right;
+
+
+}
+
+.row-bg-nos {
+    background-color: #161613;
+}
+
+.title-nosotros {
+    color: white;
+    padding-top: 20px;
+    font-size: 3.3vw;
+    font-family: dine;
+    letter-spacing: 5px;
+}
+
+.par-nosotros-1 {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.8vw;
+}
+
+.par-nosotros-2 {
+    color: white;
+    padding-top: 10px;
+    font-size: 1.8vw;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.title-map {
+    color: white;
+    font-size: 3.3vw;
+    font-family: dine;
+    letter-spacing: 5px;
+    margin-top: 40px;
+
+}
+
+.sub-map {
+    color: white;
+    font-size: 2.7vw;
+}
+
+.text-map {
+    color: white;
+    font-size: 1.8vw;
+    margin-top: 7vw;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.bg {
+    background-color: #161613;
+}
+
+.polifuncional {
+    width: 100%;
+    height: auto;
+}
+
+.nuestro-espacio {
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 3.6vw;
+    font-family: dine;
+    letter-spacing: 5px;
+}
+
+.text-nuestro-espacio {
+    color: white;
+    font-size: 2vw;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.planos {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.texto-planos {
+    color: white;
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: dine;
+    letter-spacing: 3px;
+}
+
+.disponibilidad {
+    color: white;
+    padding-left: 20px;
+    font-size: 1.5vw;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.img-number {
+    width: 9vw;
+}
+
+/*PENDIENTE DE RESPONSIVE*/
+.descargar {
+    float: right;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.atencion {
+    width: 100%;
+}
+
+.number {
+    color: white;
+    font-size: 4vw;
+    font-family: dine;
+    letter-spacing: 6px;
+
+}
+
+.container-bg-number {
+    background-color: #110F0B;
+    padding-top: 40px;
+}
+
+.oportunidad-1 {
+    color: white;
+    font-size: 2.8vw;
+    margin-bottom: 0px;
+
+
+}
+
+.oportunidad-2 {
+    color: white;
+    font-size: 2.8vw;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: dine;
+    letter-spacing: 5px;
+}
+
+.acessibilidad {
+    width: 100%;
+}
+
+.text-acces {
+    color: white;
+    font-size: 2vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-acces-bg {
+    background-color: #110F0B;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.locales {
+    width: 100%;
+
+}
+
+.car-title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: dine;
+    letter-spacing: 4px;
+}
+
+.item-car {
+    padding-bottom: 80px;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    color: red;
+    background-color: red;
+    opacity: .6;
+}
+
+.footer-title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.span-footer {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.img-footer {
+    max-width: 250px;
+    padding-top: 10%;
+    padding-right: 10px;
+
+}
+
+.footer-contacto {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 38px;
+}
+
+.number-footer {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer-copy {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    opacity: .6;
+}
+
+.mob-car {
+    width: 100%;
+    height: auto;
+}
+
+.plaza-alessia-mob {
+    font-size: 11vw;
+    font-family: dine;
+    letter-spacing: 5px;
+}
+
+.plaza-alessia-desc-mob {
+    font-size: 4vw;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .img-footer {
+        max-width: 230px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .footer-title {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer-contacto {
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+
+    .span-footer {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .descargar {
+        width: 100%;
+        padding: 10%;
+        float: none;
+    }
+
+    .texto-planos {
+        font-size: 4vh;
+        padding-top: 10px;
+    }
+
+    .disponibilidad {
+        font-size: 15px;
+    }
+
+    .nuestro-espacio {
+       
+        font-size: 4vh;
+    }
+
+    .text-nuestro-espacio {
+        font-size: 15px;
+        padding-right: 20px;
+        text-align: justify;
+
+    }
+
+    .title-map {
+        font-size: 3.3vh;
+        
+    }
+
+    .sub-map {
+        font-size: 23px;
+
+    }
+
+    .text-map {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 60%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .bg {
+        background-color: #161613;
+    }
+
+    .car-bg-mob {
+        background-color: black;
+    }
+
+    .nuestro-espacio-bg {
+
+        background-color: black;
+    }
+
+    /*.text-acces-bg {
+        background-color: black;
+    }*/
+    .text-acces-bg {
+        background-color: #161613;
+    }
+
+    .text-acces {
+        text-align: justify;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 15px;
+    }
+
+    .title-nosotros {
+        font-size: 4vh;
+        
+        margin-bottom: 30px;
+    }
+
+    .par-nosotros-1 {
+        font-size: 15px;
+        text-align: justify;
+
+    }
+
+    .par-nosotros-2 {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .number {
+        font-size: 35px;
+    }
+
+    .oportunidad-1 {
+        font-size: 18px;
+    }
+
+    .oportunidad-2 {
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width:767px) {
+    .icons-menu {
+        max-width: 210px;
+    }
+
+    .cont-bg-line {
+        background-image: none;
+    }
+
+    #border-1 {
+        border-left: 6px solid #E26565;
+
+    }
+
+    #border-2 {
+
+        border-right: 6px solid #B8F386;
+    }
+
+    #border-3 {
+        border-left: 6px solid #748F5D;
+
+    }
+
+    #border-4 {
+
+        border-right: 6px solid #B04545;
+    }
+
+    #border-5 {
+        border-left: 6px solid #E26565;
+
+    }
+
+    #border-6 {
+
+        border-right: 6px solid #B8F386;
+    }
+}
+
+@media(max-width:575px) {
+    #border-1 {
+        border-left: 6px solid #E26565;
+        border-right: 6px solid #748F5D;
+    }
+
+    #border-2 {
+        border-left: 6px solid #B04545;
+        border-right: 6px solid #B8F386;
+    }
+
+    #border-3 {
+        border-left: 6px solid #748F5D;
+        border-right: 6px solid #E26565;
+    }
+
+    #border-4 {
+        border-left: 6px solid #B8F386;
+        border-right: 6px solid #B04545;
+    }
+
+    #border-5 {
+        border-left: 6px solid #E26565;
+        border-right: 6px solid #748F5D;
+    }
+
+    #border-6 {
+        border-left: 6px solid #B04545;
+        border-right: 6px solid #B8F386;
+    }
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
